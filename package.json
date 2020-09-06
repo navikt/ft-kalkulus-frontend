@@ -1,0 +1,131 @@
+{
+  "name": "@navikt/ft-kalkulus-frontend",
+  "description": "Frontendkode for ft-kalkulus",
+  "main": "./dist/index.js",
+  "version": "1.0.0",
+  "author": "NAV",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navikt/ft-kalkulus-frontend.git"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./packages/**/*.jsx",
+    "lint:config": "node -e 'console.dir(require(\"./.eslintrc.js\"))'",
+    "storybook": "start-storybook -p 9001 -c packages/storybook/.storybook",
+    "test": "jest",
+    "ts-check": "tsc --pretty"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "@istanbuljs/nyc-config-babel": "^3.0.0",
+    "@storybook/addon-a11y": "^5.3.13",
+    "@storybook/addon-docs": "^5.3.13",
+    "@storybook/addon-info": "^5.3.13",
+    "@storybook/addon-storyshots": "^5.3.13",
+    "@storybook/addon-storyshots-puppeteer": "^5.3.13",
+    "@storybook/addon-storysource": "^5.3.13",
+    "@storybook/react": "^5.3.13",
+    "@storybook/storybook-deployer": "^2.8.1",
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.14",
+    "@types/react-dom": "^16.9.3",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-macros": "^2.7.1",
+    "babel-preset-react-app": "^9.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "copyfiles": "^2.1.1",
+    "eslint": "^6.7.2",
+    "mocha": "^7.1.2",
+    "mochapack": "^1.1.15",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "file-loader": "^4.2.0",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "jest-transform-stub": "^2.0.0",
+    "lerna": "^3.19.0",
+    "less": "^3.10.3",
+    "@types/chai": "^4.2.11",
+    "@types/react-collapse": "^5.0.0",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/redux-form": "^8.2.6",
+    "chai": "^4.2.0",
+    "less-loader": "^5.0.0",
+    "circular-dependency-plugin": "^5.0.2",
+    "eslint-loader": "^4.0.2",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "cache-loader": "^4.1.0",
+    "thread-loader": "^2.1.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "null-loader": "^4.0.0",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "react-test-renderer": "^16.11.0",
+    "require-context.macro": "^1.2.2",
+    "start-server-and-test": "^1.10.6",
+    "stylelint": "^12.0.0",
+    "stylelint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-lerna": "^1.1.0",
+    "stylelint-order": "^3.1.1",
+    "stylelint-prettier": "^1.1.1",
+    "sinon": "^9.0.2",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.5.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "typescript": "^3.7.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["./setup/setupTests.js"],
+    "snapshotSerializers": ["enzyme-to-json/serializers"]
+  },
+  "require": [
+    "@babel/register"
+  ],
+  "resolutions": {
+    "react-test-renderer": "^16.13.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
+    "classnames": "^2.2.6",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{less}": [
+      "stylelint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
