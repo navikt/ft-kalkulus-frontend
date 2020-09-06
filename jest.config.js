@@ -1,6 +1,6 @@
 module.exports = {
     roots: ['<rootDir>'],
-    testMatch: ['**/?(*.)+(spec).+(ts|tsx|js)'],
+    testMatch: ['**/?(*.)+(spec).+(ts|tsx|js|jsx)'],
     transform: {
         '^.+\\.(ts|tsx|js|jsx)?$': 'babel-jest',
         '^.+.(css|less)$': 'jest-transform-stub',
@@ -13,7 +13,9 @@ module.exports = {
     testPathIgnorePatterns: ['/node_modules/', '/dist/'],
     transformIgnorePatterns: ['<rootDir>.*(node_modules)(?!.*nav.*).*$'],
     collectCoverage: true,
-    collectCoverageFrom: ['packages/**/felles/src/**/*.(ts|tsx|js)'],
+    collectCoverageFrom: ['packages/felles/src/**/*.(ts|tsx|js|jsx)'],
     coveragePathIgnorePatterns: ['application-wrapper'],
     setupFilesAfterEnv: ['<rootDir>/setup/enzymeSetup.js'],
 };
+
+//'packages/prosess-beregningsgrunnlag/src/*.(ts|tsx|js|jsx)'
