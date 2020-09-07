@@ -13,7 +13,6 @@ import sinon from 'sinon';
 
 // You can pass your messages to the IntlProvider. Optional: remove if unneeded.
 import messages from '../../../../public/sprak/nb_NO';
-// TODO trengs disse?
 export { default as messages } from '../../../../public/sprak/nb_NO';
 
 // Create the IntlProvider to retrieve context for wrapping around.

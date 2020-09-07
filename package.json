@@ -98,7 +98,6 @@
     "typescript": "^3.7.3"
   },
   "jest": {
-    "setupFilesAfterEnv": ["./setup/setupTests.js"],
     "snapshotSerializers": ["enzyme-to-json/serializers"]
   },
   "require": [
@@ -117,7 +116,7 @@
     "react-dom": "^16.13.1"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "*.{ts,tsx,jsx}": [
       "eslint --fix",
       "prettier --write",
       "git add"
