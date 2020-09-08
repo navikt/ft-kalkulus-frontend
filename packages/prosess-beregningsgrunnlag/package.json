@@ -6,6 +6,7 @@
   "main": "src/index.jsx",
   "private": true,
   "dependencies": {
+    "@navikt/ft-kalkulus-frontend-felles": "^1.0.0",
     "classnames": "^2.2.6",
     "moment": "^2.27.0",
     "nav-frontend-chevron": "1.0.10",

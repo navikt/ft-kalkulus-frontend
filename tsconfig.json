@@ -7,7 +7,7 @@
         "watch": false,
         "skipLibCheck": true
     },
-    "exclude": ["**/*.stories.tsx", "node_modules", "dist"],
+    "exclude": ["./packages/storybook", "node_modules", "dist"],
     "include": [
         "./@types"
     ]

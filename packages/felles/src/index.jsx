@@ -54,3 +54,4 @@ export { default as TextAreaField } from './forms/TextAreaField';
 // utils-test
 export { shallowWithIntl, intlMock, mountWithIntl } from './utils-test/intl-enzyme-test-helper';
 export { inputMock, metaMock, MockFields, MockFieldsWithContent, reduxFormPropsMock, mountFieldComponent } from './utils-test/redux-form-test-helper';
+export { default as configureStore } from './utils-test/configureStore';

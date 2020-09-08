@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames/bind';
 import { Image } from '@navikt/ft-kalkulus-frontend-felles';
-import * as endretFelt from '../../../assets/endret_felt.svg';
 import { useIntl } from 'react-intl';
+import endretFelt from '../../../assets/endret_felt.svg';
 
 import styles from './editedIcon.less';
 
