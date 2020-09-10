@@ -4,7 +4,11 @@
   "module": "src/index.jsx",
   "license": "MIT",
   "main": "src/index.jsx",
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navikt/ft-kalkulus-frontend.git"
+  },
   "dependencies": {
     "@navikt/ft-kalkulus-frontend-felles": "^1.0.0",
     "classnames": "^2.2.6",

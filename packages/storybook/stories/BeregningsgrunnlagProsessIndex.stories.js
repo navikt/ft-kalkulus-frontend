@@ -11,7 +11,7 @@ import { aksjonspunktCodes,
   faktaOmBeregningTilfelle,
   periodeAarsak} from '@navikt/ft-kalkulus-frontend-felles';
 
-import BeregningsgrunnlagProsessIndex from '@navikt/ft-kalkulus-frontend-beregningsgrunnlag';
+import { BeregningsgrunnlagProsessIndex } from '@navikt/ft-kalkulus-frontend-beregningsgrunnlag';
 
 import withReduxProvider from '../decorators/withRedux';
 

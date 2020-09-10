@@ -1,4 +1,4 @@
 {
     "version": "3.18.4",
-    "packages": ["./packages/*"]
+    "packages": ["./packages/felles/*", "./packages/prosess-beregningsgrunnlag/*"]
 }

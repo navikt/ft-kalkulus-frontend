@@ -1,1 +1,1 @@
-export { default } from './BeregningsgrunnlagProsessIndex';
+export { default as BeregningsgrunnlagProsessIndex } from './BeregningsgrunnlagProsessIndex';
