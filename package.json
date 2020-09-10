@@ -4,7 +4,7 @@
   "main": "./dist/index.js",
   "version": "1.0.0",
   "author": "NAV",
-  "private": false,
+  "private": true,
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
