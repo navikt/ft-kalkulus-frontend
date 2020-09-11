@@ -39,7 +39,6 @@
     "nav-frontend-etiketter": "2.0.3",
     "nav-frontend-etiketter-style": "1.0.3",
     "nav-frontend-typografi-style": "1.0.22",
-    "react": "^16.13.1",
     "react-day-picker": "^7.4.8",
     "react-intl": "^4.7.6",
     "react-modal": "3.11.2",
@@ -52,10 +51,8 @@
     "react-test-renderer": "^16.13.1",
     "sinon": "^9.0.2"
   },
-  "resolutions": {
-    "react-test-renderer": "^16.13.1"
-  },
   "peerDependencies": {
-    "react": "^16.11.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

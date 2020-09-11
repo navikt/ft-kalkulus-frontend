@@ -14,25 +14,25 @@
     "storybook": "start-storybook -p 9001",
     "test": "jest"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
+    "history": "^4.9.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.4",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-transform-runtime": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
     "@babel/register": "^7.10.4",
-    "@storybook/addon-actions": "^6.0.19",
-    "@storybook/addon-docs": "^6.0.19",
-    "@storybook/addon-knobs": "^6.0.19",
-    "@storybook/addons": "^6.0.19",
-    "@storybook/cli": "^6.0.19",
-    "@storybook/react": "^6.0.19",
-    "@storybook/storybook-deployer": "^2.8.6",
-    "@storybook/theming": "^6.0.19",
     "css-loader": "^4.2.2",
     "mini-css-extract-plugin": "^0.9.0",
     "@types/jest": "^24.0.23",
@@ -82,7 +82,7 @@
     "cache-loader": "^4.1.0",
     "thread-loader": "^2.1.2",
     "react-docgen-typescript-loader": "^3.6.0",
-    "react-test-renderer": "^16.11.0",
+    "react-test-renderer": "^16.13.1",
     "require-context.macro": "^1.2.2",
     "start-server-and-test": "^1.10.6",
     "stylelint": "^12.0.0",
@@ -106,17 +106,6 @@
   ],
   "resolutions": {
     "react-test-renderer": "^16.13.1"
-  },
-  "dependencies": {
-    "@babel/polyfill": "^7.10.4",
-    "@babel/runtime": "^7.10.4",
-    "classnames": "^2.2.6",
-    "normalize.css": "^8.0.1",
-    "prop-types": "^15.7.2",
-    "history": "^4.9.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-redux": "^7.2.1"
   },
   "lint-staged": {
     "*.{ts,tsx,jsx}": [
