@@ -9,7 +9,7 @@
     "url": "git+https://github.com/navikt/ft-kalkulus-frontend.git"
   },
   "dependencies": {
-    "@navikt/ft-kalkulus-frontend-felles": "^1.0.0",
+    "@navikt/ft-kalkulus-frontend-felles": "^1.0.1",
     "classnames": "^2.2.6",
     "moment": "^2.27.0",
     "nav-frontend-chevron": "1.0.10",
@@ -42,10 +42,8 @@
     "react-test-renderer": "^16.13.1",
     "sinon": "^9.0.2"
   },
-  "resolutions": {
-    "react-test-renderer": "^16.13.1"
-  },
   "peerDependencies": {
-    "react": "^16.11.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
