@@ -6,7 +6,7 @@ import { reducer as formReducer } from 'redux-form';
 
 import reducerRegistry from './ReducerRegistry';
 
-const isDevelopment = process.env.NODE_ENV === 'development';
+const isDevelopment = false;
 const logger = isDevelopment ? require('redux-logger') : null;
 
 const combineAllReducers = (reduxFormReducer, applicationReducers) => combineReducers({

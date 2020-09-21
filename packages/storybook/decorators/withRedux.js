@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { createBrowserHistory } from 'history';
 
-import { configureStore } from '@navikt/ft-kalkulus-frontend-felles';
+import { configureStore } from '../../felles/src';
 
 const history = createBrowserHistory({
     basename: '/fpsak/',

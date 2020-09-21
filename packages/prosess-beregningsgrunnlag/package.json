@@ -9,7 +9,7 @@
     "url": "git+https://github.com/navikt/ft-kalkulus-frontend.git"
   },
   "dependencies": {
-    "@navikt/ft-kalkulus-frontend-felles": "^1.0.1",
+    "@navikt/ft-kalkulus-frontend-felles": "^1.0.2",
     "classnames": "^2.2.6",
     "moment": "^2.27.0",
     "nav-frontend-chevron": "1.0.10",

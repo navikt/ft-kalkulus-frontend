@@ -9,9 +9,9 @@ import { aksjonspunktCodes,
   aktivitetStatus,
   aksjonspunktStatus,
   faktaOmBeregningTilfelle,
-  periodeAarsak} from '@navikt/ft-kalkulus-frontend-felles';
+  periodeAarsak} from '../../felles/src';
 
-import { BeregningsgrunnlagProsessIndex } from '@navikt/ft-kalkulus-frontend-beregningsgrunnlag';
+import { BeregningsgrunnlagProsessIndex } from '../../prosess-beregningsgrunnlag/src';
 
 import withReduxProvider from '../decorators/withRedux';
 
